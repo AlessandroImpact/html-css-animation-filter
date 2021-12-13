@@ -16,18 +16,26 @@
 /*----  2 esercizio ----*/
 
 
-.ex-2-squares {
+.ex-2-square {
     transition: 3s;
 }
 
-.ex-2-squares:active {
+.ex-2-square:active {
     width: 100%;
 }
 
 
-
-
-
-
-
 /*----  3 esercizio ----*/
+
+
+.ex-3-square {
+    transition: 3s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+
+
+/*----  4 esercizio ----*/
