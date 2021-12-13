@@ -1,6 +1,8 @@
 /*----FOGLIO DI STILE CONTENENTE LE ANIMAZIONI DEGLI ELEMENTI----*/
 
 
+/*----  1 esercizio ----*/
+
 .ex-1-square {
     transition: 3s;
 }
@@ -11,4 +13,21 @@
 }
 
 
-.ex-2-squares
+/*----  2 esercizio ----*/
+
+
+.ex-2-squares {
+    transition: 3s;
+}
+
+.ex-2-squares:active {
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*----  3 esercizio ----*/
