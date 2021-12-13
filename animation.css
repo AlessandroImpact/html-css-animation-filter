@@ -71,3 +71,52 @@ transition: 2s;
 .ex-5-square:active {
     transform: scale(0.5);
 }
+
+
+
+/*----  6 esercizio ----*/
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+
+
+/*----  7 esercizio ----*/
+
+
+.ex-7-img {
+    transition: 2s;
+}
+
+
+.ex-7-img:hover {
+    filter: grayscale(50%) sepia(50%);
+}
+
+
+/*----  8 esercizio ----*/
+
+
+.ex-8-img {
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    border-radius: 10%;
+    filter: grayscale(50%) sepia(50%);
+}
+
+
+/*----  9 esercizio ----*/
+
+
+.ex-9-img {
+    transition: 3s;
+}
+
+.ex-9-img:hover {
+    border-radius: 10%;
+    filter: grayscale(50%) sepia(50%);
+    transform: scale(0.5);
+}
