@@ -159,3 +159,43 @@ transition: 2s;
 }
 
 }
+
+
+
+/*----  12 esercizio ----*/
+/* trattare i due div top e bottom separatamente */
+
+
+/* DIV SUPERIORE*/
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: slide-top-white 2s linear;
+}
+@keyframes slide-top-white {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 50%;
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+/* DIV INFERIORE*/
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: slide-bottom-white 2s linear;
+}
+@keyframes slide-bottom-white {
+    0% {
+        right: 10%;
+    }
+    50% {
+        right: 50%;
+    }
+    100% {
+        right: 10%;
+    }
+}
