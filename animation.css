@@ -199,3 +199,98 @@ transition: 2s;
         right: 10%;
     }
 }
+
+
+
+/*----  13 esercizio ----*/
+
+/* DIV SUPERIORE*/
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: round-top-white 2s linear;
+}
+
+@keyframes round-top-white {
+
+    0%{
+        top: -10px;
+        left:10%;
+    }
+
+
+    30%{
+        top: -10px;
+        left:calc(100%-30px);
+    }
+
+
+    45%{
+        left:calc(100%-30px);
+        top: 100%;
+    }
+
+
+    75%{
+        left: 0;
+        top: 100% ;
+    }
+
+    90% {
+        left: -10px;
+        top: -10px;
+    }
+
+
+    100% {
+        top: -10px;
+        left:10%;
+    }
+    
+}
+
+
+
+
+
+/* DIV INFERIORE*/
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: round-bottom-white 2s linear;
+}
+
+@keyframes round-bottom-white {
+
+    0%{
+        left:calc(100%-30px);
+        top: 100%;
+    }
+
+
+    25%{
+        left: 0;
+        top: 100% ;
+    }
+
+
+    50%{
+        left: -10px;
+        top: -10px;
+    }
+
+
+    75%{
+        top: -10px;
+        left:10%;
+    }
+
+    90%{
+        top: -10px;
+        left:10%;
+    }
+
+    100% {
+        top: -10px;
+        left:calc(100%-30px);
+    }
+    
+}
